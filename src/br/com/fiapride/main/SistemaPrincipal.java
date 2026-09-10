@@ -1,6 +1,6 @@
 package br.com.fiapride.main;
 
-import br.com.fiapride.model.Veiculos;
+import br.com.fiapride.model.Veiculo;
 
 public class SistemaPrincipal {
 
@@ -8,7 +8,7 @@ public class SistemaPrincipal {
 
         System.out.println("--- Sistema FiapRide ---\n");
 
-        Veiculos veiculo = new Veiculos("Carlos", "ABC-1234");
+        Veiculo veiculo = new Veiculo("Carlos", "ABC-1234");
 
         veiculo.adicionarGasolina(50);
         veiculo.gasta(100);

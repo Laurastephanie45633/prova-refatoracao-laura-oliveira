@@ -1,12 +1,12 @@
 package br.com.fiapride.model;
 
-public class Veiculos {
+public class Veiculo {
 
     private String nome;
     private String placa;
     private double gasolina;
 
-    public Veiculos(String nome, String placa) {
+    public Veiculo(String nome, String placa) {
         this.setNome(nome);
         this.setPlaca(placa);
         this.setGasolina(0);
